@@ -19,4 +19,7 @@ Connect to your Roomba using Wi-fi scanner .Right click on the wifi name and cli
 
 Open the "project2lib" file to get the library blocks
 From there copy all The blocks to a blank model space
-Connect the wifi block  and Temperature block and 
+Connect the wifi block as an input to the   and Temperature block and 
+the Ir Block and also to the main block. Connect the temp to the main block and the ir to the main block
+Run the simulation. This should move the roomba and when there is an object in front of the ir sensors it will turn 
+and if all the ir sensors are blocked it will move backwards. This will also monitor the temperature of the Roomba .
