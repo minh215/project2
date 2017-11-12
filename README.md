@@ -15,11 +15,26 @@ Connect to your Roomba using Wi-fi scanner .Right click on the wifi name and cli
 
 
 # project2
+This project is a continuation from project 1. This includes more function and the Roomba can move and avoid obstacles. It
+will simultaneously monitor the IR sensors and the temperature of the Roomba. 
 
 
 Open the "project2lib" file to get the library blocks
+
 From there copy all The blocks to a blank model space
-Connect the wifi block as an input to the   and Temperature block and 
+
+Connect the wifi block as an input to the Temperature block and 
+
 the Ir Block and also to the main block. Connect the temp to the main block and the ir to the main block
+
 Run the simulation. This should move the roomba and when there is an object in front of the ir sensors it will turn 
-and if all the ir sensors are blocked it will move backwards. This will also monitor the temperature of the Roomba .
+
+and if all the ir sensors are blocked it will move backwards. This will also monitor the temperature of the Roomba . This
+
+will monitor all 6 of the IR sensors on the Roomba. When there is a object blocking any of the sensos and depending on how many sensors
+
+are blocked the Roomba will respond accrodingly. If all 6 IR are blocked, the roomba will stop and rotate 180 degrees and contnue
+
+forward. If the right most 3 IR are blocked it will move left 15 degrees and avoid the onbstacle and then continue straight. It will
+
+continuously monitor all the IR sensors and will move accordingly to which ever way to avoid the obstacle. 
