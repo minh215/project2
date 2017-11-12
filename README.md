@@ -33,7 +33,7 @@ and if all the ir sensors are blocked it will move backwards. This will also mon
 
 will monitor all 6 of the IR sensors on the Roomba. When there is a object blocking any of the sensos and depending on how many sensors
 
-are blocked the Roomba will respond accrodingly. If all 6 IR are blocked, the roomba will stop and rotate 180 degrees and contnue
+are blocked the Roomba will respond accordingly. If all 6 IR are blocked, the roomba will stop and rotate 180 degrees and continue
 
 forward. If the right most 3 IR are blocked it will move left 15 degrees and avoid the onbstacle and then continue straight. It will
 
